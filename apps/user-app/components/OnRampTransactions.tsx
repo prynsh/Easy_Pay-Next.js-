@@ -91,7 +91,7 @@ export const OnRampTransactions = ({
                                 + Rs {t.amount / 100}
                             </div>
                             <div className="flex items-center">
-                                <div className={`rounded-full h-3 w-3 mr-2 ${t.status === 'success' ? 'bg-green-500' : t.status === 'processing' ? 'bg-yellow-500' : 'bg-red-500'}`}></div>
+                                {/* <div className={`rounded-full h-3 w-3 mr-2 ${t.status === 'success' ? 'bg-green-500' : t.status === 'processing' ? 'bg-yellow-500' : 'bg-red-500'}`}></div> */}
                                 <div className="text-xs">
                                     {t.status}
                                 </div>

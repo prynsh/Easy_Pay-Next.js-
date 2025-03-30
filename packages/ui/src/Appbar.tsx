@@ -4,8 +4,7 @@ import Link from 'next/link'
 interface AppbarProps {
     user?: {
         name?: string | null;
-    },
-    // TODO: can u figure out what the type should be here?
+    },  
     onSignin: any,
     onSignout: any
 }
